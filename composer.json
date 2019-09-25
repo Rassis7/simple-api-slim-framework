@@ -1,0 +1,33 @@
+{
+  "name": "simple-api-slim-framework",
+  "description": "",
+  "authors": [
+    {
+      "name": "Rassis7",
+      "email": "romuloassis.as@gmail.com"
+    }
+  ],
+  "require": {
+    "slim/slim": "^3.1",
+    "illuminate/database": "v4.2.9",
+    "vlucas/phpdotenv": "^2.5",
+    "robmorgan/phinx": "0.5.*",
+    "monolog/monolog": "^1.17",
+    "firebase/php-jwt": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "src\\controllers\\": "src/controllers",
+      "src\\models\\": "src/models",
+      "helpers\\": "helpers"
+    }
+  },
+  "scripts": {
+    "start": [
+      "@server"
+    ],
+    "server": [
+      "php -S localhost:8888 -t . index.php"
+    ]
+  }
+}

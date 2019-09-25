@@ -1,0 +1,6 @@
+vendor/*
+.idea/*
+.env
+logs/
+
+frontend/node_modules/*
