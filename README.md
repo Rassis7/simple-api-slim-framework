@@ -2,9 +2,9 @@
 
 O sistema contém dois ambientes:
 
-##**1. Back-end**
+## **1. Back-end**
 
-####Itens intalados no composer.json
+#### Itens intalados no composer.json
 
 ```bash
  "require": {
@@ -17,23 +17,23 @@ O sistema contém dois ambientes:
   }
 ```
 
-####**Libs Adicionais**
+#### **Libs Adicionais**
 
-####vlucas/phpdotenv -> [link](https://github.com/vlucas/phpdotenv);
+#### vlucas/phpdotenv -> [link](https://github.com/vlucas/phpdotenv);
 
-####robmorgan/phinx -> [link](https://github.com/cakephp/phinx);
+#### robmorgan/phinx -> [link](https://github.com/cakephp/phinx);
 
-####monolog/monolog -> [link](https://github.com/Seldaek/monolog);
+#### monolog/monolog -> [link](https://github.com/Seldaek/monolog);
 
-####firebase/php-jwt -> [link](https://github.com/firebase/php-jwt)
+#### firebase/php-jwt -> [link](https://github.com/firebase/php-jwt)
 
-####**Para instalar**
+#### **Para instalar**
 
 ```bash
 $ composer install
 ```
 
-####**.env**
+#### **.env**
 
 O arquivo .env-example é um template.
 Como é um app de teste, todos os dados sensiveis estão nesse arquivo.
@@ -58,7 +58,7 @@ DB_USER=root
 DB_PASSWORD=admin
 ```
 
-####**Migrations**
+#### **Migrations**
 
 O banco da app, é gerado via migration (phinx)
 
@@ -66,23 +66,23 @@ O banco da app, é gerado via migration (phinx)
 $ php vendor/bin/phinx migrate
 ```
 
-###**Startar a API**
+### **Startar a API**
 
 ```bash
 $ composer start
 ```
 
-##**2. Front-end**
+## **2. Front-end**
 
 Foi usado o [VueJs](https://vuejs.org/) para criar o frontend da aplicação
 
-####**Local do front**
+#### **Local do front**
 
 ```bash
 cd frontend/
 ```
 
-####Itens intalados no package.json
+#### Itens intalados no package.json
 
 ```bash
 "dependencies": {
@@ -101,37 +101,37 @@ cd frontend/
   }
 ```
 
-####**Libs Adicionais**
+#### **Libs Adicionais**
 
-#####axios -> [link](https://github.com/axios/axios);
+##### axios -> [link](https://github.com/axios/axios);
 
-#####bootstrap-vue-> [link](https://github.com/bootstrap-vue/bootstrap-vue);
+##### bootstrap-vue-> [link](https://github.com/bootstrap-vue/bootstrap-vue);
 
-#####dotenv-webpack-> [link](https://github.com/mrsteele/dotenv-webpack#readme);
+##### dotenv-webpack-> [link](https://github.com/mrsteele/dotenv-webpack#readme);
 
-#####jsonwebtoken-> [link](https://github.com/auth0/node-jsonwebtoken#readme);
+##### jsonwebtoken-> [link](https://github.com/auth0/node-jsonwebtoken#readme);
 
-#####localStorage -> [link](https://github.com/coolaj86/node-localStorage);
+##### localStorage -> [link](https://github.com/coolaj86/node-localStorage);
 
-#####moment -> [link](https://github.com/moment/moment);
+##### moment -> [link](https://github.com/moment/moment);
 
-#####vue-facebook-signin-button -> [link](https://github.com/phanan/vue-facebook-signin-button);
+##### vue-facebook-signin-button -> [link](https://github.com/phanan/vue-facebook-signin-button);
 
-#####vue-google-signin-button -> [link](https://github.com/phanan/vue-google-signin-button);
+##### vue-google-signin-button -> [link](https://github.com/phanan/vue-google-signin-button);
 
-#####vue-router -> [link](https://router.vuejs.org/);
+##### vue-router -> [link](https://router.vuejs.org/);
 
-#####vue2-toast -> [link](https://github.com/lin-xin/vue-toast#readme);
+##### vue2-toast -> [link](https://github.com/lin-xin/vue-toast#readme);
 
-#####vuex -> [link](https://github.com/vuejs/vuex);
+##### vuex -> [link](https://github.com/vuejs/vuex);
 
-####Para instalar
+#### Para instalar
 
 ```bash
 $ npm i
 ```
 
-###**.env**
+### **.env**
 
 O arquivo .env-example é um template. Como é uma app de teste, todos os dados sensiveis estão nesse arquivo.
 O certo é ficar em um arquivo .env.\*
@@ -143,13 +143,13 @@ Para gerar o .env:
 $ cp .env-example .env
 ```
 
-####Startar a site
+#### Startar a site
 
 ```bash
 $ npm start
 ```
 
-###Dump do banco
+### Dump do banco
 Não há necessiade de rodar, mas se o usuário quiser, o arquivo está na pasta
 
 ```bash
