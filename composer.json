@@ -9,7 +9,7 @@
   ],
   "require": {
     "slim/slim": "^3.1",
-    "illuminate/database": "v4.2.9",
+    "illuminate/database": "v6.20.12",
     "vlucas/phpdotenv": "^2.5",
     "robmorgan/phinx": "0.5.*",
     "monolog/monolog": "^1.17",
